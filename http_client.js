@@ -8,5 +8,4 @@ http.get(process.argv[2], function(response){
     response.on('data', function(e){
         console.log(e);
     });
-
 });
